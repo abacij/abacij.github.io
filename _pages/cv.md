@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="Users\julie\abacij.github.io\abacij.github.io-1\_pages\cv.pdf" width="95%" height="500px"></iframe>
+<iframe src="C:\Users\julie\abacij.github.io\abacij.github.io-1\_pages\cv.pdf" width="95%" height="500px"></iframe>
