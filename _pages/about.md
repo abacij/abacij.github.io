@@ -7,28 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Julie. I am a recent graduate from The College of New Jersey and am currently seeking post-baccalaureate research positions before eventually pursuing doctoral studies. My research is focused on the implications of marginalization and adversity on well-being, specifically through the lens of social and political identification.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+Hi! I recently graduated from The College of New Jersey and am currently seeking post-baccalaureate research positions before pursuing doctoral studies. My research broadly focuses on the impact of marginalization and adversity on psychological well-being. Specifically, I investigate how social and political identification and collective action can be leveraged as coping mechanisms, and how these forms of coping may influence negative outcomes under certain conditions.
+
+Although my work is primarily informed by social psychology theory, I often incorporate cognitive, developmental, and computational insights to form an interdisciplinary perspective. Through this lens, my goal is to develop a comprehensive understanding of systemic inequity and identity, ultimately informing well-being across underserved populations through my research.
+
+Outside of research, I am an avid reader, baker, and lover of philosophical literature. Refer to the tabs above to browse my CV, research, and other projects (like philosophy papers)!   
