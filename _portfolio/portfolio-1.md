@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Collective Action"
+excerpt: "A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg'>"
 collection: portfolio
 ---
 
