@@ -19,7 +19,7 @@ Figure 2. A Path Model (Independent Variables to Mediators)
 Figure 3. C Path Model (Total Effects)
 ![Alt text](/images/toteff.png)
 
-Figure 4. Mediation Model
+Figure 4. Mediation Model w/ Results
 ![Alt text](/images/med.png)
 
 Figure 5. Direct Effects Model (C')
