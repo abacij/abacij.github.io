@@ -1,6 +1,6 @@
 ---
 title: "Collective Action"
-excerpt: "A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg' width="70%" height="400px">"
+excerpt: "A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg'>"
 collection: portfolio
 ---
 
