@@ -1,6 +1,6 @@
 ---
 title: "Collective Action"
-excerpt: A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg' style="width:300px;">
+excerpt: A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg' style="width:400px;">
 collection: portfolio
 ---
 
@@ -16,6 +16,16 @@ Figure 1. Mediation Model
 Figure 2. A Path Model (Independent Variables to Mediators)
 ![Alt text](/images/ivtodv.png)
 
-Figure3. 
+Figure 3. C Path Model (Total Effects)
+![Alt text](/images/toteff.png)
+
+Figure 4. Mediation Model
+![Alt text](/images/med.png)
+
+Figure 5. Direct Effects Model (C')
+![Alt text](/images/cp.png)
+
+Table 1. Standardized Indirect Effects
+![Alt text](/images/tab.png)
 
 
