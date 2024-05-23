@@ -8,7 +8,7 @@ Participating in collective action—including activities like protesting, activ
 
 We hypothesized that feminist identification would mediate the association between collective action and positive outcomes, including social support, belonging, and efficacy. Additionally, we hypothesized that perceived sexism would mediate the association between collective action and negative outcomes, including rumination about sexism and psychological distress. Employing a longitudinal design, we sent a Qualtrics survey to a sample of women via email across three time-points to assess our two main hypotheses. Collective action significantly predicted feminist identification and exposure to sexism, and these two mediators significantly predicted each of their corresponding outcomes. 
 
-This study was completed as my psychology thesis at The College of New Jersey. Refer to figures below for results.
+This study was completed as my psychology thesis at The College of New Jersey, alongside my advisors: Dr. Ashley Borders, Dr. Shaun Wiley, and Dr. Adaurennaya Onyewuenyi. Refer to images below for results.
 
 Figure 1. Hypothesized Mediation Model
 ![Alt text](/images/unnamed.png)
