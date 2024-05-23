@@ -1,6 +1,6 @@
 ---
 title: "Collective Action"
-excerpt: "A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg'>"
+excerpt: "A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg' width="70%" height="400px">"
 date: 2024-08-14
 collection: portfolio
 ---
@@ -11,8 +11,12 @@ We hypothesized that feminist identification would mediate the association betwe
 
 This study was completed as my psychology thesis at The College of New Jersey. Refer to figures below for results.
 
+Figure 1. Mediation Model
 ![Alt text](/images/unnamed.png)
 
+Figure 2. Independent Variables to Mediators Model (A Path)
+![Alt text](/images/ivtodv.png)
 
+Figure3. 
 
 
