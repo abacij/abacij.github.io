@@ -10,7 +10,7 @@ We hypothesized that feminist identification would mediate the association betwe
 
 This study was completed as my psychology thesis at The College of New Jersey. Refer to figures below for results.
 
-Figure 1. Mediation Model
+Figure 1. Hypothesized Mediation Model
 ![Alt text](/images/unnamed.png)
 
 Figure 2. A Path Model (Independent Variables to Mediators)
