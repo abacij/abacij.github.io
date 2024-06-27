@@ -1,8 +1,8 @@
 ---
 title: "Greater Philadelphia Philosophy Consortium @ Swarthmore College"
 collection: teaching
-type: "Paper presented at the annual GPPC. This paper showcased an argument against certain Libertaian notions of freedom and economic distribution using Michael Sandel’s _Justice: What’s The Right Thing to Do?_."
-permalink: /projects/
+type: "Paper presented at the annual GPPC. This paper showcased an argument against certain Libertaian notions of freedom and economic distribution using Michael Sandel’s _Justice: What’s The Right Thing to Do?"
+permalink: /projects/gppc
 ---
 
 <iframe src="/files/essay.pdf" width="95%" height="600px">
