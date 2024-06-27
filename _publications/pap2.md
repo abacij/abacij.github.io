@@ -1,10 +1,11 @@
 ---
-title: "Subjective Morality, Plato, and A.J. Ayer"
+title: "'Thelma & Louise' Through the Lens of Nietzsche’s Misogyny"
 collection: publications
-permalink: /publication/gppc
-excerpt: 'Paper written for an ethics course, 2023'
-paperurl: 'http://abacij.github.io/files/essay2.pdf'
+permalink: /publication/tl
+excerpt: 'Paper written for a film philosophy course, 2022'
+paperurl: 'http://abacij.github.io/files/essay3.pdf'
 ---
 
-This paper was written for an ethics course at The College of New Jersey. It explores atheism and subjective morality using works from Lewis Carroll, Plato, and A.J. Ayer- I enjoyed writing this!
-<a href="http://abacij.github.io/files/essay2.pdf" target="_blank">
+This paper was written for a film philosophy course at The College of New Jersey. It explores Nietzsche's notorious legacy of misogyny and connects it to the film _Thelma & Louise_.- 
+
+[Download](http://abacij.github.io/files/essay3.pdf)
