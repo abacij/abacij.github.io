@@ -1,6 +1,6 @@
 ---
 title: Other Projects + Abstracts
-excerpt: Coping with Racial Discrimination - Judgement & Decision Making - Morality - Comorbid Anxiety & Depression 
+excerpt: Coping with Racial Discrimination - Judgment & Decision Making - Morality - Comorbid Anxiety & Depression 
 collection: portfolio
 ---
 
