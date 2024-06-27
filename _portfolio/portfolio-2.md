@@ -12,9 +12,22 @@ This project was completed with one of my research mentors, Dr. John Ruscio,
 
 You can find the package on my github repository, titled "Momentum-Package"
 
-You can download and install the package by running these lines of code: <br/><img src='/images/code.png' style="width:800px;">
+You can download and install the package by running these lines of code: 
+```R
+install.packages("devtools")
+devtools::install_github("abacij/Momentum-Package", force = TRUE) 
+library(MomentumTest)
+```
+<br/><img src='/images/code.png' style="width:800px;">
 
-To demonstrate the use of this code and it's main function "streakTests", I will use two example binary sequences: one random and one streaky: <br/><img src='/images/code1.png' style="width:800px;">
+To demonstrate the use of this code and it's main function "streakTests", I will use two example binary sequences: one random and one streaky:
+```R
+x0 <- rbinom(100, 1, .5) #random vector of 100, not streaky
+x1 <- c(rbinom(25, 1, .85), rbinom(25, 1, .15), rbinom(25, 1, .85), rbinom(25, 1, .15)) #streaky
+streakTests(x0)
+streakTests(x1)
+```
+ <br/><img src='/images/code1.png' style="width:800px;">
 
 Each "streakTests" output provides text and visuals for the runs test, autocorrelations test, and conditional probabilities. 
 
