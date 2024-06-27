@@ -12,7 +12,5 @@ You can find the package on my github repository, titled "Momentum-Package"
 
 
 You can download and install the package by running these lines of code:
-```r
-install.packages("devtools")
-devtools::install_github("abacij/Momentum-Package", force = TRUE)
-library(MomentumTest)
+
+<br/><img src='/images/code.jpg' style="width:500px;">
