@@ -10,9 +10,8 @@ Given the common influence of cognitive illusions and flawed judgment, it is ess
 
 You can find the package on my github repository, titled "Momentum-Package"
 
-```markdown
-You can download and install the package by running these lines of code:
 
+You can download and install the package by running these lines of code:
 ```r
 install.packages("devtools")
 devtools::install_github("abacij/Momentum-Package", force = TRUE)
