@@ -13,4 +13,4 @@ You can find the package on my github repository, titled "Momentum-Package"
 
 You can download and install the package by running these lines of code:
 
-<br/><img src='/images/code.jpg' style="width:500px;">
+<br/><img src='/images/code.png' style="width:500px;">
