@@ -1,5 +1,5 @@
 ---
-title: "Collective Action."
+title: "Collective Action"
 excerpt: A Pathway Model of Collective Action's Impact on Women's Well-Being<br/><img src='/images/capic.jpg' style="width:400px;">
 collection: portfolio
 ---
