@@ -17,4 +17,7 @@ To demonstrate the use of this code and it's main function "streakTests", I will
 
 Each "streakTests" output provides text and visuals for the runs test, autocorrelations test, and conditional probabilities. 
 
-Here is the example output for x0 (random sequence = insignificant results = no momentum detected)<br/><img src='/images/rt.png' style="width:600px;"><br/><img src='/images/rr.png' style="width:600px;"><br/><img src='/images/ar.png' style="width:600px;"><br/><img src='/images/cpr.png' style="width:600px;">
+Here is the example output for x0 (random sequence = insignificant results = no momentum detected)<br/><img src='/images/rt.png' style="width:400px;"><br/><img src='/images/rr.png' style="width:400px;"><br/><img src='/images/ar.png' style="width:400px;"><br/><img src='/images/cpr.png' style="width:400px;">
+
+Here is the example output for x1 (streaky sequence = significant results =  momentum detected)
+<br/><img src='/images/st.png' style="width:400px;"><br/><img src='/images/sr.png' style="width:400px;"><br/><img src='/images/sa.png' style="width:400px;"><br/><img src='/images/cps.png' style="width:400px;">
