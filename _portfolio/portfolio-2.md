@@ -11,6 +11,6 @@ Given the common influence of cognitive illusions and flawed judgment, it is ess
 You can find the package on my github repository, titled "Momentum-Package"
 
 
-You can download and install the package by running these lines of code:
+You can download and install the package by running these lines of code: <br/><img src='/images/code.png' style="width:800px;">
 
-<br/><img src='/images/code.png' style="width:500px;">
+To demonstrate the use of this code and it's main function "streakTests", I will use two example binary sequences: one random and one streaky: <br/><img src='/images/code1.png' style="width:800px;">
