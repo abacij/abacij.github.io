@@ -1,5 +1,5 @@
 ---
-title: "SES & RL"
+title: "SES & Machine Learning"
 excerpt: A Task-Based Model of Uncertainty’s Impact on Reinforcement Learning (A Focus on Socioeconomic Status)<br/><img src='/images/post.png' style="width:400px;">
 collection: portfolio
 ---
@@ -10,6 +10,4 @@ I completed this project under the guidance of Dr. Rachel Bedder in Dr. Yael Niv
 
 The code for this project can be accessed in my github repository, titled "SES-Machine-Learning"
 
-This was the final poster:
-
-<br/><img src='/images/post.png' style="width:800px;">
+This was the final poster: <br/><img src='/images/post.png' style="width:800px;">
