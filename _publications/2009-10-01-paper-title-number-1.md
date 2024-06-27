@@ -8,4 +8,3 @@ paperurl: 'http://abacij.github.io/files/essay.pdf'
 ---
 
 Paper presented at the annual GPPC. This paper showcased an argument against certain Libertarian notions of freedom and economic distribution using Michael Sandel’s _Justice: What’s The Right Thing to Do?_
-'http://abacij.github.io/files/essay.pdf'lol
