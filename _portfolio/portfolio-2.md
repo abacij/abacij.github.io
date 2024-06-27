@@ -9,7 +9,9 @@ Understanding momentum in sports has long been a subject of interest, with impli
 Given the common influence of cognitive illusions and flawed judgment, it is essential to employ statistical methods to accurately discern whether outcomes in a sequence are genuinely random or influenced by preceding events. The aim of this project was to address the need for a tool facilitating efficient and reproducible analyses of binary data in this context. Using R, we developed a package tailored for analyzing binary data sequences, aiming to detect momentum or non-random patterns in sports data. By providing a tool for analyzing sports data, this project contributes to advancing our understanding of momentum in sports and supports informed decision-making in sports analytics.
 
 You can find the package on my github repository, titled "Momentum-Package"
+
 You can download and install the package by running these lines of code: 
+
 ```r
 install.packages("devtools")
 devtools::install_github("abacij/Momentum-Package", force = TRUE)
