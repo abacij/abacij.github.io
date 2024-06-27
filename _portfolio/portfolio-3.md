@@ -1,6 +1,6 @@
 ---
 title: "SES & Machine Learning"
-excerpt: A Task-Based Model of Uncertainty’s Impact on Reinforcement Learning (A Focus on Socioeconomic Status)<br/><img src='/images/picc.png' style="width:400px;">
+excerpt: A Task-Based Model of Uncertainty’s Impact on Reinforcement Learning (A Focus on Socioeconomic Status)<br/><img src='/images/post.png' style="width:400px;">
 collection: portfolio
 ---
 
