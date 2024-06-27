@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Greater Philadelphia Philosophy Consortium @ Swarthmore College"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Paper presented at the annual GPPC. This paper showcased an argument against certain Libertaian notions of freedom and economic distribution using Michael Sandel’s _Justice: What’s The Right Thing to Do?_."
+permalink: /projects/
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+<iframe src="/files/essay.pdf" width="95%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="/files/essay.pdf">Download PDF</a>.
+</iframe>
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+<a href="https://drive.google.com/file/d/1GMmtRaRJutB1clJlRxwb_0SKahdXe3o1/view?usp=sharing" target="_blank">If the full PDF is not loading on your browser, download here</a>
