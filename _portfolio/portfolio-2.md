@@ -14,3 +14,7 @@ You can find the package on my github repository, titled "Momentum-Package"
 You can download and install the package by running these lines of code: <br/><img src='/images/code.png' style="width:800px;">
 
 To demonstrate the use of this code and it's main function "streakTests", I will use two example binary sequences: one random and one streaky: <br/><img src='/images/code1.png' style="width:800px;">
+
+Each "streakTests" output provides text and visuals for the runs test, autocorrelations test, and conditional probabilities. 
+
+Here is the example output for x0 (random sequence = insignificant results = no momentum detected)<br/><img src='/images/rt.png' style="width:600px;"><br/><img src='/images/rr.png' style="width:600px;"><br/><img src='/images/ar.png' style="width:600px;"><br/><img src='/images/cpr.png' style="width:600px;">
