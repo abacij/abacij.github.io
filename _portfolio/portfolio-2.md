@@ -1,6 +1,6 @@
 ---
 title: "R Package"
-excerpt: Developing a Package in R to Test the Presence of Momentum in Sports Data<br/><img src='/images/screen.jpg' style="width:400px;">
+excerpt: Developing a Package in R to Test the Presence of Non-Random Patterns in Binary Data<br/><img src='/images/screen.jpg' style="width:400px;">
 collection: portfolio
 ---
 
