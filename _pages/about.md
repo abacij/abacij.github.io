@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I recently graduated from The College of New Jersey and am currently seeking post-baccalaureate research positions before pursuing doctoral studies. My research broadly focuses on the impact of marginalization and adversity on psychopathology and well-being. Recently, I've been investigating how social and political identification and collective action can be leveraged as coping mechanisms, and how these forms of coping may influence negative health outcomes under certain conditions.
+Hi! I am a research coordinator in Dr. Shana Cole's RAMP lab at Rutger's University. I earned my B.A. in psychology from The College of New Jersey with a minor in philosophy. My research broadly focuses on the impact of marginalization and adversity on psychopathology and well-being. Recently, I've been investigating how social and political identification and collective action can be leveraged as coping mechanisms, and how these forms of coping may influence negative health outcomes under certain conditions.
 
 Although my work is primarily informed by social psychology theory, I often incorporate developmental, clinical, cognitive, and computational insights to form an interdisciplinary perspective. Through this lens, my goal is to develop a comprehensive understanding of systemic inequity and identity, ultimately informing psychological well-being across underserved populations through my research.
 
