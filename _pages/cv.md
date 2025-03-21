@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="/files/cv1.pdf" width="95%" height="600px">
+<iframe src="/files/CV25.pdf" width="95%" height="600px">
     This browser does not support PDFs. Please download the PDF to view it: 
     <a href="/files/CV25.pdf">Download PDF</a>.
 </iframe>
