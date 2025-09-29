@@ -40,24 +40,6 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* Custom style for the special link */
-.special-link {
-  position: absolute;
-  right: 250px;      /* distance from the right edge */
-  top: 185px;       /* adjust down from the top */
-  font-weight: bold;
-  background-color: #f8f9fa; /* optional: highlight */
-  padding: 6px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #0056b3;
-}
-
-
-.special-link:hover {
-  background-color: #e2e6ea;
-  color: #003f7f;
-}
 
 .special-link-container {
   margin: 20px 0;
@@ -76,4 +58,5 @@
 .special-link:hover {
   background-color: #005fa3;
 }
+
 
