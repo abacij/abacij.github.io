@@ -15,3 +15,9 @@
     display: none;
     padding : 5px;
 }
+
+.special-link {
+  float: right;
+  margin-left: 20px;   /* space between the link and text */
+  font-weight: bold;   /* make it stand out */
+}
