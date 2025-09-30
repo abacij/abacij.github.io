@@ -41,22 +41,19 @@
 @import "print";
 
 
-.special-link-container {
-  margin: 20px 0;
-  text-align: center; /* or left/right depending on style */
+.special-link {
+  margin: 6px 0 12px 0;
+  font-size: 0.85rem;   /* smaller than normal text */
+  text-align: left;
 }
 
-.special-link {
-  display: inline-block;
-  padding: 10px 16px;
-  background-color: #007acc;
-  color: #fff !important;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
+.special-link a {
+  color: #0056b3;
+  text-decoration: underline;
 }
-.special-link:hover {
-  background-color: #005fa3;
+
+.special-link a:hover {
+  color: #003366;
 }
 
 
