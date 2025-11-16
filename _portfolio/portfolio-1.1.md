@@ -1,5 +1,5 @@
 ---
-title: "Perceptual Bias and Sociopolitical Information"
-excerpt: Activist Well-being and Political Ideology <br/><img src='/images/capic.jpg' style="width:400px;">
+title: "Ideological Threat and Perceptual Bias"
+excerpt: Sociopolitical information processing on perceptual bias <br/><img src='/images/capic.jpg' style="width:400px;">
 collection: portfolio
 ---
