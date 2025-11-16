@@ -5,10 +5,11 @@ collection: portfolio
 ---
 
 Ideologies—shared systems of political or religious beliefs—serve as powerful psychological lenses that shape how people interpret information. Even when presented with the same content, individuals may reach different conclusions depending on their ideological beliefs and motivations to maintain them. The current project I am coordinating at Rutgers investigates whether ideology influences how people visually perceive sociopolitical imagery. 
+
 In a study conducted in the days before the 2024 U.S. presidential election, we examined how people perceived the size of political rallies. Using a novel visual matching tool (see below!), participants estimated how many people they saw in a photograph described as either a Trump or a Harris rally. We found evidence for ideologically motivated visual perception; when participants thought the photograph depicted their preferred candidate’s rally, they perceived more people than when they thought the photograph depicted the opposing candidate’s rally. Such findings reveal polarization at early stages of information processing.
+
 Ongoing data collection is investigating these effects in other polarizing sociopolitical topics, including immigration policy, research funding cuts, and LGBTQ+ rights. Specifically, we are exploring this motivated perception through the lens of parallel processes of fear and danger control; those low in response-efficacy might visually minimize ideological threat to decrease fear and defensive activism, while those high in response-efficacy might visually exaggerate ideological threat to increase fear and defensive activism. Thus, current studies are employing response-efficacy manipulation to assess the relationship between efficacy, threat, and visual perception.
 
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -51,12 +52,7 @@ Ongoing data collection is investigating these effects in other polarizing socio
 
 <body>
   <div id="pageContainer" style="display: flex; flex-direction: column; align-items: center;">
-    
-   <div id="questionContainer" style="text-align: center; margin-bottom: 10px;">
-       <h2 style="color: #060606; font-size: 20px; font-family: 'Arial', sans-serif; font-weight: bold;">Photograph of a Political Rally for Kamala Harris</h2>
-<p style="color: #060606; font-size: 18px; font-family: 'Arial', sans-serif; font-weight: normal;">Below is a photo taken at a recent Harris rally in Pennsylvania, where Harris supporters gathered to hear the candidate speak. Pennsylvania is a swing state and is very closely contested in the upcoming election. Take a good look at the photo.</p>
-<p style="color: #ffffff; font-size: 18px; font-family: 'Arial', sans-serif; font-weight: normal; font-style: italic;">                                                                                               .          </p>
-<p style="color: #060606; font-size: 18px; font-family: 'Arial', sans-serif; font-weight: normal; font-style: italic;">Using the sliding scale below, please recreate the number of people you see in the image. In other words, slide the scale until the number of dots is equal to the number of people you see in the image. Try to be as accurate as possible. </p>
+                                                                                              .          
     </div>
 
     <div id="imageContainer">
