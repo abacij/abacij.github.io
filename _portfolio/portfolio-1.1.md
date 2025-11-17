@@ -13,34 +13,34 @@ Ongoing data collection is investigating these effects in other polarizing socio
 <html>
 
 <head>
-  <title>Resizable Box with Stylish Slider</title>
+  <title>Visual Matching Task</title>
 
   <style>
-    /* Center all content */
+    /* Center everything */
     #pageContainer {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 10px;
+      margin-top: 20px;
     }
 
-    /* Photo sizing — change width as needed */
+    /* Image 100px smaller than before */
     #imageContainer img {
-      width: 620px;  /* Slightly larger than the 600px dot box */
+      width: 500px; /* was 600px */
       height: auto;
-      display: block;
+      border: 2px solid #ccc;
     }
 
-    /* Dot box container */
+    /* Box: 100px smaller */
     #boxContainer {
-      width: 600px;
-      height: 300px;
+      width: 500px;   /* was 600px */
+      height: 200px;  /* was 300px */
       border: 4px solid blue;
       position: relative;
-      margin-top: 10px;
+      background: white;
+      margin-top: 15px;
     }
 
-    /* Dots */
     .dot {
       width: 4px;
       height: 4px;
@@ -50,11 +50,9 @@ Ongoing data collection is investigating these effects in other polarizing socio
       transform: translate(-50%, -50%);
     }
 
-    /* Slider container */
     #dotsSliderContainer {
       width: 50%;
-      margin-top: 12px;
-      margin-bottom: 5px;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -62,28 +60,30 @@ Ongoing data collection is investigating these effects in other polarizing socio
 <body>
   <div id="pageContainer">
 
-    <!-- IMAGE ABOVE THE BOX -->
+    <!-- IMAGE -->
     <div id="imageContainer">
       <img src="https://rutgers.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9SNB2MQ5D76drt4" alt="Your Image">
     </div>
 
-    <!-- DOT BOX + SLIDER -->
-    <div id="container">
-      <div id="boxContainer"></div>
+    <!-- DOTS + SLIDER -->
+    <div id="boxContainer"></div>
 
-      <div id="dotsSliderContainer">
-        <input type="range" min="0" max="5500" value="0" id="dotsSlider" style="width: 100%;">
-      </div>
-
-      <div id="sliderValue"></div>
-      <input type="hidden" id="finalDotCount" name="finalDotCount">
+    <div id="dotsSliderContainer">
+      <input type="range" min="0" max="5500" value="200" class="slider" id="dotsSlider" style="width: 100%;">
     </div>
 
-    <script>
+    <div id="sliderValue"></div>
+    <input type="hidden" id="finalDotCount" name="finalDotCount">
+
+  </div>
+
+  <script>
+    window.onload = function () {
+
       var boxContainer = document.getElementById('boxContainer');
       var dotsSlider = document.getElementById('dotsSlider');
+      var sliderValueDisplay = document.getElementById('sliderValue');
 
-      // Store dot divs here
       var existingDots = [];
 
       function addRandomDot(boxWidth, boxHeight, dotSize) {
@@ -99,58 +99,39 @@ Ongoing data collection is investigating these effects in other polarizing socio
 
       function removeRandomDot() {
         if (existingDots.length > 0) {
-          var index = Math.floor(Math.random() * existingDots.length);
-          var dot = existingDots.splice(index, 1)[0];
-          boxContainer.removeChild(dot);
+          var dotToRemove = existingDots.pop();
+          boxContainer.removeChild(dotToRemove);
         }
       }
 
       function updateDots(value) {
+        boxContainer.innerHTML = '';
+        existingDots = [];
+
         var boxWidth = boxContainer.clientWidth;
         var boxHeight = boxContainer.clientHeight;
         var dotSize = 4;
 
-        // Clear dots the safe way (keeps object references)
-        while (boxContainer.firstChild) {
-          boxContainer.removeChild(boxContainer.firstChild);
+        for (var i = 0; i < value; i++) {
+          addRandomDot(boxWidth, boxHeight, dotSize);
         }
 
-        // Re-add stored dots
-        existingDots.forEach(function (dot) {
-          boxContainer.appendChild(dot);
-        });
-
-        // Add or remove dots to match slider value
-        if (value > existingDots.length) {
-          for (var i = existingDots.length; i < value; i++) {
-            addRandomDot(boxWidth, boxHeight, dotSize);
-          }
-        } else if (value < existingDots.length) {
-          for (var i = existingDots.length; i > value; i--) {
-            removeRandomDot();
-          }
-        }
-
-        // Update hidden field for Qualtrics
         document.getElementById('finalDotCount').value = value;
+        sliderValueDisplay.innerHTML = "Dots: " + value;
 
-        // If running inside Qualtrics
         if (typeof Qualtrics !== "undefined") {
           Qualtrics.SurveyEngine.setEmbeddedData('finalDotCount', value);
         }
       }
 
       dotsSlider.addEventListener('input', function () {
-        var sliderValue = parseInt(dotsSlider.value);
-        updateDots(sliderValue);
+        updateDots(parseInt(this.value));
       });
 
-      // Initialize
       updateDots(parseInt(dotsSlider.value));
-    </script>
+    };
+  </script>
 
-  </div>
 </body>
 
 </html>
-
