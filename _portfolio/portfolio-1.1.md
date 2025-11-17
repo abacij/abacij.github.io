@@ -16,63 +16,74 @@ Ongoing data collection is investigating these effects in other polarizing socio
   <title>Resizable Box with Stylish Slider</title>
 
   <style>
-    /* Style for the container holding box and slider */
-    #container {
+    /* Center all content */
+    #pageContainer {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      margin-top: 1px; /* Adjust the margin as needed */
+      margin-top: 10px;
     }
 
-    /* Here you can change the width of the box */
+    /* Photo sizing — change width as needed */
+    #imageContainer img {
+      width: 620px;  /* Slightly larger than the 600px dot box */
+      height: auto;
+      display: block;
+    }
+
+    /* Dot box container */
     #boxContainer {
-      width: 400px;
-      height: 100px;
+      width: 600px;
+      height: 300px;
       border: 4px solid blue;
       position: relative;
+      margin-top: 10px;
     }
 
-    /* Style for the dots */
+    /* Dots */
     .dot {
       width: 4px;
       height: 4px;
       background-color: black;
       border-radius: 50%;
       position: absolute;
-      transform: translate(-50%, -50%); /* Center the dot within its position */
+      transform: translate(-50%, -50%);
     }
 
-    /* Adjusted style for the image container */
-    #imageContainer {
-      margin-bottom: 10px; /* Adjust the margin as needed */
+    /* Slider container */
+    #dotsSliderContainer {
+      width: 50%;
+      margin-top: 12px;
+      margin-bottom: 5px;
     }
   </style>
 </head>
 
 <body>
-  <div id="pageContainer" style="display: flex; flex-direction: column; align-items: center;">
-                                                                                              .          
+  <div id="pageContainer">
 
+    <!-- IMAGE ABOVE THE BOX -->
     <div id="imageContainer">
       <img src="https://rutgers.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9SNB2MQ5D76drt4" alt="Your Image">
     </div>
 
+    <!-- DOT BOX + SLIDER -->
     <div id="container">
       <div id="boxContainer"></div>
-      <div id="dotsSliderContainer" style="width: 50%;">
-        <input type="range" min="0" max="5500" value="0" class="slider" id="dotsSlider" style="width: 100%;">
+
+      <div id="dotsSliderContainer">
+        <input type="range" min="0" max="5500" value="0" id="dotsSlider" style="width: 100%;">
       </div>
+
       <div id="sliderValue"></div>
-      <input type="hidden" id="finalDotCount" name="finalDotCount"> 
+      <input type="hidden" id="finalDotCount" name="finalDotCount">
     </div>
 
     <script>
       var boxContainer = document.getElementById('boxContainer');
       var dotsSlider = document.getElementById('dotsSlider');
-      var sliderValueDisplay = document.getElementById('sliderValue');
 
-      // An array to store the existing dots
+      // Store dot divs here
       var existingDots = [];
 
       function addRandomDot(boxWidth, boxHeight, dotSize) {
@@ -82,66 +93,64 @@ Ongoing data collection is investigating these effects in other polarizing socio
         var randomY = Math.random() * (boxHeight - dotSize);
         dot.style.left = randomX + 'px';
         dot.style.top = randomY + 'px';
-        existingDots.push(dot); // Store the dot in the array
+        existingDots.push(dot);
         boxContainer.appendChild(dot);
       }
 
       function removeRandomDot() {
         if (existingDots.length > 0) {
-          var randomIndex = Math.floor(Math.random() * existingDots.length);
-          var dotToRemove = existingDots.splice(randomIndex, 1)[0];
-          boxContainer.removeChild(dotToRemove);
+          var index = Math.floor(Math.random() * existingDots.length);
+          var dot = existingDots.splice(index, 1)[0];
+          boxContainer.removeChild(dot);
         }
       }
 
       function updateDots(value) {
-        // Clear the boxContainer
-        boxContainer.innerHTML = '';
-
         var boxWidth = boxContainer.clientWidth;
         var boxHeight = boxContainer.clientHeight;
         var dotSize = 4;
 
-        // Add existing dots back to the container
-        existingDots.forEach(function(dot) {
+        // Clear dots the safe way (keeps object references)
+        while (boxContainer.firstChild) {
+          boxContainer.removeChild(boxContainer.firstChild);
+        }
+
+        // Re-add stored dots
+        existingDots.forEach(function (dot) {
           boxContainer.appendChild(dot);
         });
 
+        // Add or remove dots to match slider value
         if (value > existingDots.length) {
-          // Add new dots
           for (var i = existingDots.length; i < value; i++) {
             addRandomDot(boxWidth, boxHeight, dotSize);
           }
         } else if (value < existingDots.length) {
-          // Remove dots randomly
           for (var i = existingDots.length; i > value; i--) {
             removeRandomDot();
           }
         }
 
-        // Set the value of the finalDotCount input element
-        var finalDotCountInput = document.getElementById('finalDotCount');
-        finalDotCountInput.value = value;
-        Qualtrics.SurveyEngine.setEmbeddedData('finalDotCount', value);
+        // Update hidden field for Qualtrics
+        document.getElementById('finalDotCount').value = value;
 
-
+        // If running inside Qualtrics
+        if (typeof Qualtrics !== "undefined") {
+          Qualtrics.SurveyEngine.setEmbeddedData('finalDotCount', value);
+        }
       }
 
-      dotsSlider.addEventListener('input', function() {
+      dotsSlider.addEventListener('input', function () {
         var sliderValue = parseInt(dotsSlider.value);
         updateDots(sliderValue);
-
-        // Center the slider thumb
-        var sliderWidth = dotsSlider.offsetWidth;
-        var containerWidth = dotsSliderContainer.offsetWidth;
-        var offset = (containerWidth - sliderWidth) * (sliderValue / dotsSlider.max);
-        dotsSlider.style.left = offset + 'px';
       });
 
-      // Initial dot update
+      // Initialize
       updateDots(parseInt(dotsSlider.value));
     </script>
+
   </div>
 </body>
 
 </html>
+
