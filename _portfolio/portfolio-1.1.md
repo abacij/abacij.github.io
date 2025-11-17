@@ -27,8 +27,8 @@ Ongoing data collection is investigating these effects in other polarizing socio
 
     /* Here you can change the width of the box */
     #boxContainer {
-      width: 600px;
-      height: 300px;
+      width: 400px;
+      height: 100px;
       border: 4px solid blue;
       position: relative;
     }
@@ -53,7 +53,6 @@ Ongoing data collection is investigating these effects in other polarizing socio
 <body>
   <div id="pageContainer" style="display: flex; flex-direction: column; align-items: center;">
                                                                                               .          
-    </div>
 
     <div id="imageContainer">
       <img src="https://rutgers.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9SNB2MQ5D76drt4" alt="Your Image">
