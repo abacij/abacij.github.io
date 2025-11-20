@@ -11,4 +11,4 @@ Hi! I am a psychology research coordinator at Rutgers University, working in Dr.
 
 Although my work is primarily informed by social psychology theory, I often incorporate cognitive, clinical, and computational insights to form an interdisciplinary perspective. Through this lens, my goal is to develop a comprehensive understanding of identity and social human behavior, ultimately informing psychological well-being across underserved populations through my research.
 
-Outside of research, I am an avid reader, baker, and lover of philosophical literature. Refer to the tabs above to browse my CV, research, and other projects (like philosophy papers)!   
+Outside of research, I love to read, bake, and explore new coffee shops! Refer to the tabs above to browse my CV, research, and other projects (like philosophy papers)!   
